@@ -1,7 +1,4 @@
 from __future__ import unicode_literals
-from builtins import bytes
-from builtins import range
-from builtins import str
 import ffmpeg
 import os
 import pytest

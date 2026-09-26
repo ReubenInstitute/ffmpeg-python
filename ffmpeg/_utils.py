@@ -1,13 +1,5 @@
 from __future__ import unicode_literals
-from builtins import str
-from past.builtins import basestring
 import hashlib
-import sys
-
-
-if sys.version_info.major == 2:
-    # noinspection PyUnresolvedReferences,PyShadowingBuiltins
-    str = str
 
 try:
     from collections.abc import Iterable
@@ -39,14 +31,8 @@ def with_metaclass(meta, *bases):
     return metaclass('temporary_class', None, {})
 
 
-if sys.version_info.major >= 3:
-
-    class basestring(with_metaclass(BaseBaseString)):
-        pass
-
-else:
-    # noinspection PyUnresolvedReferences,PyCompatibility
-    from builtins import basestring
+class basestring(with_metaclass(BaseBaseString)):
+    pass
 
 
 def _recursive_repr(item):

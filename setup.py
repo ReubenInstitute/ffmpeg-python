@@ -68,10 +68,8 @@ setup(
     download_url=download_url,
     keywords=keywords,
     long_description=long_description,
-    install_requires=['future'],
     extras_require={
         'dev': [
-            'future==0.17.1',
             'numpy==1.16.4',
             'pytest-mock==1.10.4',
             'pytest==4.6.1',

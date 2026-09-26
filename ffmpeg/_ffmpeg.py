@@ -1,6 +1,5 @@
 from __future__ import unicode_literals
 
-from past.builtins import basestring
 from ._utils import basestring
 
 from .nodes import (
