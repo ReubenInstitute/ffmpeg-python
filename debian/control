@@ -1,7 +1,7 @@
 Source: ffmpeg-python
 Section: python
 Priority: optional
-Maintainer: Reuben Institute <reubeninstitute@gmail.com>
+Maintainer: SciNova <scinovasystems@gmail.com>
 Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
 Standards-Version: 4.6.2
 
@@ -10,6 +10,6 @@ Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
 Description: Python bindings for FFmpeg
  Python bindings for FFmpeg, with support for complex filter graphs.
- Reuben Institute's fork of kkroening/ffmpeg-python with the
- future/past.builtins Python 2 compatibility shims removed, since
- only Python 3 is supported here.
+ SciNova's fork of kkroening/ffmpeg-python with the future/past.builtins
+ Python 2 compatibility shims removed, since only Python 3 is
+ supported here.

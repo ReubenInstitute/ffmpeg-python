@@ -1,4 +1,4 @@
-ffmpeg-python (0.460) unstable; urgency=medium
+ffmpeg-python (0.461) unstable; urgency=medium
 
   * Package Reuben Institute's fork as python3-ffmpeg: a real Debian
     source package (dpkg-buildpackage), built with dh-python and

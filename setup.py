@@ -1,7 +1,7 @@
 from setuptools import setup
 from textwrap import dedent
 
-version = '0.2.0'
+version = '0.461'
 download_url = 'https://github.com/kkroening/ffmpeg-python/archive/v{}.zip'.format(
     version
 )
@@ -58,7 +58,7 @@ misc_keywords = [
 keywords = misc_keywords + file_formats
 
 setup(
-    name='ffmpeg-python',
+    name='python-ffmpeg-fork',
     packages=['ffmpeg'],
     version=version,
     description='Python bindings for FFmpeg - with complex filtering support',
